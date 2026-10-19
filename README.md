@@ -1,5 +1,7 @@
 # 小鲸鱼画板 · dsh-image-gen
-
+一定要是bilibili秋叶的本地部署forgeai，远程和本地接口都可以，不过需要在设置界面更改
+秋叶up主页：https://space.bilibili.com/12566101
+forge版本本地部署视频：https://www.bilibili.com/video/BV1rc6nYNEYo/
 本地 AI 绘图接入 DeepSeek Harness：**模型自己写提示词 → 本地 Stable Diffusion WebUI / Forge 渲染 → 图片直接出现在对话里**。
 
 > 在「已安装插件」里搜 **小鲸鱼画板**（包名 `dsh-image-gen`，行 id `dsh-image-gen`）就能找到它。
