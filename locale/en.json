@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Whale Canvas",
+    "description": "Local image generation: the agent writes the prompt, a local Stable Diffusion WebUI / Forge renders it, and the picture shows up in the conversation. Everything lives in Settings → Whale Canvas: endpoint, checkpoint, one-click launch, output folder, always-on prompts, LoRA / embeddings / hypernetworks, generation defaults. Only a small status pill stays above the composer."
+  }
+}
