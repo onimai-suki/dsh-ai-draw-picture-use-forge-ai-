@@ -1,0 +1,37 @@
+{
+  "name": "dsh-image-gen",
+  "version": "0.6.0",
+  "private": true,
+  "description": "小鲸鱼画板（dsh-image-gen）：本地 AI 绘图接入 DeepSeek Harness —— 模型自己写提示词，本机 Stable Diffusion WebUI / Forge 出图，图片直接出现在对话里；全部设置收在 设置 → 小鲸鱼画板，输入框上方只留一枚状态胶囊。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "endpoint": "http://127.0.0.1:7860",
+  "launcher": "F:\\sd-webui-forge-aki-v1.0\\A绘世启动器.exe",
+  "saveDir": "F:\\dsh-png-save",
+  "alwaysPrompt": "",
+  "alwaysNegative": "",
+  "lora": "",
+  "loraWeight": 0.8,
+  "embedding": "",
+  "hypernetwork": "",
+  "defaultWidth": 512,
+  "defaultHeight": 768,
+  "defaultSteps": 28,
+  "defaultCfg": 7
+}

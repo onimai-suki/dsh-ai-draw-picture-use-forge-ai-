@@ -1,0 +1,7 @@
+# dsh-image-gen — 接入本地 Stable Diffusion WebUI / Forge 的绘图插件。
+#
+# 这一行把 Host 半端（generate_image / image_gen_info 工具 + /api/image-gen 路由）
+# 挂进 profile；界面上的「绘图接口」输入框由同包的 client.js 注册。
+- insert:
+    - id: dsh-image-gen
+      name: 'dsh-image-gen'
