@@ -1,0 +1,2 @@
+# dsh-ai-draw-picture-use-forge-ai-
+这是一个deepseek hardness使用的图形生成调用插件可以将本地部署和在远程部署的bilibili秋叶up发布的ai画图本地部署的forge一键启动整合包来进行绘图创作，可以在设置界面找到小鲸鱼画板设置进行修改具体参数（接口，模型，存储位置等功能）在对话中如果有图像输出需求deepseek hardness会调用这个ai画图并进行输出，详见readme
